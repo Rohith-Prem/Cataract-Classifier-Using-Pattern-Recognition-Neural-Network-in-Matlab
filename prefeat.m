@@ -1,5 +1,5 @@
 %save('dataset','features','targets');
-a = imread('E:\Work\Matlab\dataset\124.jpg');
+a = imread('url'); %paste image url here
 I = a(:,:,2);
 se = strel('disk',24);
 tophat = imtophat(I,se);
